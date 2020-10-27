@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		ED42679F25488A3400A58F09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED42679E25488A3400A58F09 /* AppDelegate.m */; };
-		ED4267A225488A3400A58F09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4267A125488A3400A58F09 /* ViewController.m */; };
-		ED4267A425488A3500A58F09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4267A325488A3500A58F09 /* Assets.xcassets */; };
-		ED4267A725488A3500A58F09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED4267A525488A3500A58F09 /* Main.storyboard */; };
 		ED4267AA25488A3500A58F09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4267A925488A3500A58F09 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -18,13 +15,8 @@
 		ED42679A25488A3400A58F09 /* floating demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "floating demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED42679D25488A3400A58F09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED42679E25488A3400A58F09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED4267A025488A3400A58F09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ED4267A125488A3400A58F09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		ED4267A325488A3500A58F09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ED4267A625488A3500A58F09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED4267A825488A3500A58F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED4267A925488A3500A58F09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		ED4267AB25488A3500A58F09 /* floating_demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = floating_demo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +51,8 @@
 			children = (
 				ED42679D25488A3400A58F09 /* AppDelegate.h */,
 				ED42679E25488A3400A58F09 /* AppDelegate.m */,
-				ED4267A025488A3400A58F09 /* ViewController.h */,
-				ED4267A125488A3400A58F09 /* ViewController.m */,
-				ED4267A325488A3500A58F09 /* Assets.xcassets */,
-				ED4267A525488A3500A58F09 /* Main.storyboard */,
 				ED4267A825488A3500A58F09 /* Info.plist */,
 				ED4267A925488A3500A58F09 /* main.m */,
-				ED4267AB25488A3500A58F09 /* floating_demo.entitlements */,
 			);
 			path = "floating demo";
 			sourceTree = "<group>";
@@ -126,8 +113,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED4267A425488A3500A58F09 /* Assets.xcassets in Resources */,
-				ED4267A725488A3500A58F09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,24 +123,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED4267A225488A3400A58F09 /* ViewController.m in Sources */,
 				ED4267AA25488A3500A58F09 /* main.m in Sources */,
 				ED42679F25488A3400A58F09 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		ED4267A525488A3500A58F09 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED4267A625488A3500A58F09 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ED4267AC25488A3500A58F09 /* Debug */ = {
@@ -278,7 +251,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9YT7SWDXPP;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = "floating demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,7 +271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 9YT7SWDXPP;
-				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_HARDENED_RUNTIME = NO;
 				INFOPLIST_FILE = "floating demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
